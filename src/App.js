@@ -1,9 +1,12 @@
+import React from "react";
+import UseStateEg from "./components/UseStateEg";
 
 function App() {
+
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <UseStateEg/>
+    </>
   );
 }
 
