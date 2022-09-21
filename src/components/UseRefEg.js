@@ -11,7 +11,7 @@ function UseRefEg() {
     }
 
     useEffect( () => {
-        ///if we use state instead of ref than it will go in infinte loop
+        ///useRef to avoid additional rerender
         prevName.current = name
     }, [name])
 
