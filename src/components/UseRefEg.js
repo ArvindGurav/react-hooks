@@ -7,6 +7,7 @@ function UseRefEg() {
     const prevName = useRef('')
 
     function focusInputRef() {
+        //get reference to input dom
         inputRef.current.focus()
     }
 
