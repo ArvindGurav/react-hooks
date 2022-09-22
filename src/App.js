@@ -1,4 +1,5 @@
 import React from "react";
+import UseCallbackEg from "./components/UseCallbackEg";
 import UseContextEg from "./components/UseContextEg";
 import UseEffectEg from "./components/UseEffectEg";
 import UseEffecteg2 from "./components/UseEffecteg2";
