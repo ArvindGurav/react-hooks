@@ -1,4 +1,5 @@
 import React from "react";
+import UseContextEg from "./components/UseContextEg";
 import UseEffectEg from "./components/UseEffectEg";
 import UseEffecteg2 from "./components/UseEffecteg2";
 import UseMemoEg from "./components/UseMemoEg";
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-      <UseRefEg/>
+      <UseContextEg/>
     </>
   );
 }

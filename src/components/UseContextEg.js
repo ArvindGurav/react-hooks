@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import ClassContextComponent from './ClassContextComponent'
+import FunctionContextComponent from './FunctionContextComponent'
 
 export const ThemeContext = React.createContext()
 
@@ -14,8 +16,8 @@ function UseContextEg() {
     <>
       <ThemeContext.Provider value={darkTheme}>
         <button onClick={toggleTheme}>Toggle Theme</button>
-        <FunctionContextComponent/>
-        <ClassContextComponent/>
+        <FunctionContextComponent></FunctionContextComponent>
+        <ClassContextComponent></ClassContextComponent>
       </ThemeContext.Provider>
     </>
   )
