@@ -7,8 +7,6 @@ function UseDefferedValueListEg({input}) {
     //If the current render is the result of an urgent update, like user input, 
     //React will return the previous value and then render the new value after the urgent render has completed.
     const list = useMemo( () => {
-        console.log('input', input)
-        console.log('deferrefInput', deferrefInput)
         const l = []
         for(let i=0; i< LIST_SIZE; i++) {
             l.push(<div key={i}>{deferrefInput}</div>)
