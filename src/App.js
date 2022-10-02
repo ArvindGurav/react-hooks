@@ -9,12 +9,13 @@ import UseMemoEg from "./components/UseMemoEg";
 import UseReducerEg from "./components/UseReducerEg";
 import UseRefEg from "./components/UseRefEg";
 import UseStateEg from "./components/UseStateEg";
+import UseTransitionEg from "./components/UseTransitionEg";
 
 function App() {
 
   return (
     <>
-      <UseLayoutEg/>
+      <UseTransitionEg/>
     </>
   );
 }
