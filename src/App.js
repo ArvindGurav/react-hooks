@@ -2,6 +2,7 @@ import React from "react";
 import UseCallbackEg from "./components/UseCallbackEg";
 import UseContextEg from "./components/UseContextEg";
 import UseCustomeHooks from "./components/UseCustomeHooks";
+import UseDefferedValueEg from "./components/UseDefferedValueEg";
 import UseEffectEg from "./components/UseEffectEg";
 import UseEffecteg2 from "./components/UseEffecteg2";
 import UseLayoutEg from "./components/UseLayoutEg";
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <>
-      <UseTransitionEg/>
+      <UseDefferedValueEg/>
     </>
   );
 }

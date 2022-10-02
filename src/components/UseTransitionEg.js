@@ -7,8 +7,10 @@ function UseTransitionEg() {
     const [list, setList] = useState([])
     const LIST_SIZE = 20000
 
+    
     function handleChange(e) {
         setInput(e.target.value)
+        ///transition is low priority task setInput is updated first and body inside startTransition executed later.
         startTransition( () => {
             const l = []
             for(let i=0; i < LIST_SIZE; i++) {
