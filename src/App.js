@@ -4,6 +4,7 @@ import UseContextEg from "./components/UseContextEg";
 import UseCustomeHooks from "./components/UseCustomeHooks";
 import UseEffectEg from "./components/UseEffectEg";
 import UseEffecteg2 from "./components/UseEffecteg2";
+import UseLayoutEg from "./components/UseLayoutEg";
 import UseMemoEg from "./components/UseMemoEg";
 import UseReducerEg from "./components/UseReducerEg";
 import UseRefEg from "./components/UseRefEg";
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-      <UseCustomeHooks/>
+      <UseLayoutEg/>
     </>
   );
 }
