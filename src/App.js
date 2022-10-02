@@ -1,6 +1,7 @@
 import React from "react";
 import UseCallbackEg from "./components/UseCallbackEg";
 import UseContextEg from "./components/UseContextEg";
+import UseCustomeHooks from "./components/UseCustomeHooks";
 import UseEffectEg from "./components/UseEffectEg";
 import UseEffecteg2 from "./components/UseEffecteg2";
 import UseMemoEg from "./components/UseMemoEg";
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-      <UseCallbackEg/>
+      <UseCustomeHooks/>
     </>
   );
 }
